@@ -12,7 +12,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "MyLibrary",
-            targets: ["MyLibrary","FirstFramework","Toast"]),
+            targets: ["MyLibrary","FirstFramework"]),
     ],
     dependencies: [
         .package(url: "https://github.com/BastiaanJansen/toast-swift", from: "2.1.2")
